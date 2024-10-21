@@ -1,0 +1,48 @@
+
+.filters{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .filters__price{
+    height: 24px;
+    width: 303px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .filters__price input{
+    cursor: grab;
+  }
+  .filters__price input:active{
+    cursor: grabbing;
+  }
+
+  .filters__search{
+    height: 24px;
+    display: flex;
+  }
+  .filters__search input{
+    padding-left: 5px;
+    outline: none;
+  }
+  .filters__search button{
+    cursor: pointer;
+    padding: 2px;
+  }
+  .filters__search button svg{
+    height: 100%;
+  }
+  .filters__category{
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .filters__category select{
+    cursor: pointer;
+    outline: none;
+  }
